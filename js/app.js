@@ -11,18 +11,7 @@ signup_btn.addEventListener('click', () => {
 signin_btn.addEventListener('click', () => {
     container.classList.remove("sign-up-mode");
 })
-// Logout
-logout.addEventListener('click', () =>{
-    logout.classList.remove('logout')
-    console.log(logout)
-    window.open('adminLogin.html');
-} )
-// function Logout()
-//         {
-//           localStorage.removeItem('email');
-//           localStorage.removeItem('pswd');
-//           window.location.href="adminLogin.html";
-//         }
+
 
     
 
